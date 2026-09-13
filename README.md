@@ -70,6 +70,3 @@ Then open the local Vite URL shown in the terminal.
 Pulse CRM is a fictional product created as a portfolio case study to demonstrate product design, UI/UX, front-end development, CRM concepts, state management and lightweight automation patterns.
 
 
-## v4 mobile refinement
-
-- Mobile pipeline stages stack vertically to avoid horizontal overflow on small screens.
