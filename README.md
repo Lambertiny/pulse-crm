@@ -6,7 +6,7 @@
 
 A responsive CRM product concept for freelancers, creative studios and small agencies. Pulse combines pipeline management, contacts, tasks, lightweight automations and performance insights in one polished front-end experience.
 
-## Current build — v4
+## Project Highlights
 - Interactive dashboard with live calculations
 - Kanban pipeline with drag and drop
 - Lead scoring (HOT / WARM / COLD)
