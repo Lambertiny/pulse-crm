@@ -69,4 +69,12 @@ Then open the local Vite URL shown in the terminal.
 
 Pulse CRM is a fictional product created as a portfolio case study to demonstrate product design, UI/UX, front-end development, CRM concepts, state management and lightweight automation patterns.
 
+## Usage & Rights
+
+© 2026 Juliana Nascimento. All rights reserved.
+
+This project is publicly available for portfolio demonstration and evaluation purposes.
+
+The source code, interface design, visual identity and project materials may not be commercially reused, redistributed, republished or presented as original work without prior written permission.
+
 
