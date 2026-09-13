@@ -16,6 +16,28 @@ A responsive CRM product concept for freelancers, creative studios and small age
 - Settings panel with demo-data restore
 - Responsive desktop and mobile layouts
 
+## Screenshots
+
+### Overview
+
+![Pulse CRM Overview](./screenshots/overview.png)
+
+### Pipeline
+
+![Pulse CRM Pipeline](./screenshots/pipeline.png)
+
+### Automations
+
+![Pulse CRM Automations](./screenshots/automations.png)
+
+### Mobile
+
+<p align="center">
+  <img src="./screenshots/mobile.png" width="360" alt="Pulse CRM Mobile">
+</p>
+
+---
+
 ## Stack
 
 - React
