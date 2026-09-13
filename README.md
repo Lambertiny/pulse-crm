@@ -1,9 +1,10 @@
 # Pulse CRM — Client Operations
 
+[Live Demo](https://pulse-crm-ruddy.vercel.app) · [View Repository](https://github.com/Lambertiny/pulse-crm)
+
 A responsive CRM product concept for freelancers, creative studios and small agencies. Pulse combines pipeline management, contacts, tasks, lightweight automations and performance insights in one polished front-end experience.
 
-## Current build — v3
-
+## Current build — v4
 - Interactive dashboard with live calculations
 - Kanban pipeline with drag and drop
 - Lead scoring (HOT / WARM / COLD)
