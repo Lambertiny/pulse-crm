@@ -52,7 +52,26 @@ export default function App() {
     const timer = window.setTimeout(() => setNotice(''), 2600);
     return () => window.clearTimeout(timer);
   }, [notice]);
+useEffect(() => {
+  if (!menuOpen) return undefined;
 
+  const previousOverflow = document.body.style.overflow;
+
+  document.body.style.overflow = 'hidden';
+
+  const handleKeyDown = event => {
+    if (event.key === 'Escape') {
+      setMenuOpen(false);
+    }
+  };
+
+  window.addEventListener('keydown', handleKeyDown);
+
+  return () => {
+    document.body.style.overflow = previousOverflow;
+    window.removeEventListener('keydown', handleKeyDown);
+  };
+}, [menuOpen]);
   const moveLead = (id, stage) => {
     setLeads(current => current.map(lead => lead.id === id ? { ...lead, stage, lastActivity: 'now' } : lead));
     setSelectedLead(current => current?.id === id ? { ...current, stage, lastActivity: 'now' } : current);
